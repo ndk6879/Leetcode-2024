@@ -28,4 +28,5 @@ class Solution:
             return isSameTree(p.left, q.left) and isSameTree(p.right, q.right)
         if not subRoot: return True
         if not root: return False
-        return  isSameTree(root, subRoot) or isSameTree(root.left, subRoot) or isSameTree(root.right, subRoot)
+        if  isSameTree(root, subRoot): return True
+        return isSameTree(root.left, subRoot) or isSameTree(root.right, subRoot)
