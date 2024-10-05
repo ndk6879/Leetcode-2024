@@ -8,16 +8,17 @@ class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
 
         arr = []
+        
         def helper(node):
-            if not node: return 
-            if node.left: helper(node.left)
+            if not node: return True
+            if node.left:
+                helper(node.left)
             arr.append(node.val)
-
-            if node.right: 
+            if node.right:
                 helper(node.right)
             
-        
+
+
+
         helper(root)
-        print('arr:',arr)
         return arr[k-1]
-        
