@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
+| [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Two Pointers
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
+| [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/ndk6879/Leetcode-2024/tree/master/0141-linked-list-cycle) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
+| [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Tree
@@ -151,5 +154,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 <!---LeetCode Topics End-->
