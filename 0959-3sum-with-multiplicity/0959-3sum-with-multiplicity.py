@@ -1,7 +1,7 @@
 from collections import Counter
 
 class Solution:
-    def threeSumMulti(self, arr: List[int], target: int) -> int:
+    def threeSumMulti(self, arr, target):
         counter = Counter(arr)
         keys = sorted(counter.keys())
         result = 0
@@ -11,15 +11,15 @@ class Solution:
             x = keys[i]
             for j in range(i, len(keys)):
                 y = keys[j]
-                z = target - x - y
+                z = target - x - y  # 세 번째 숫자를 계산
                 if z < y:
-                    continue
+                    continue  # z가 y보다 작으면 더 이상 검사할 필요가 없음
                 if z in counter:
                     if x == y == z:  # 세 숫자가 모두 같은 경우
                         result += counter[x] * (counter[x] - 1) * (counter[x] - 2) // 6
-                    elif x == y != z:  # 두 숫자가 같고 나머지가 다른 경우
+                    elif x == y != z:  # 첫 번째와 두 번째가 같고 세 번째가 다른 경우
                         result += counter[x] * (counter[x] - 1) // 2 * counter[z]
-                    elif x != y and y == z:  # 첫 번째 숫자만 다르고 나머지 두 숫자가 같은 경우
+                    elif x != y and y == z:  # 첫 번째가 다르고 두 번째와 세 번째가 같은 경우
                         result += counter[x] * counter[y] * (counter[y] - 1) // 2
                     elif x < y < z:  # 세 숫자가 모두 다른 경우
                         result += counter[x] * counter[y] * counter[z]
