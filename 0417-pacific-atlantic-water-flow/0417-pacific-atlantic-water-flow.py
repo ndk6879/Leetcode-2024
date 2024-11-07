@@ -29,8 +29,8 @@ class Solution:
             dfs(i,len(heights[0])-1,atlanticSet,heights[i][len(heights[0])-1]) #마지막 column
 
         for i in range(len(heights[0])):
-            dfs(0,i,pacificSet,heights[0][i])
-            dfs(len(heights)-1,i,atlanticSet,heights[len(heights)-1][i])
+            dfs(0,i,pacificSet,heights[0][i]) #첫번째 row
+            dfs(len(heights)-1,i,atlanticSet,heights[len(heights)-1][i]) #마지막 row
 
         ans = []
         for i in range(len(heights)):
