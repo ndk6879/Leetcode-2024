@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/ndk6879/Leetcode-2024/tree/master/0006-zigzag-conversion) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
