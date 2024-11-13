@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
+| [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/ndk6879/Leetcode-2024/tree/master/0141-linked-list-cycle) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/ndk6879/Leetcode-2024/tree/master/0006-zigzag-conversion) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Hash Function
