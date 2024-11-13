@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
+| [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ndk6879/Leetcode-2024/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0143-reorder-list) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0006-zigzag-conversion](https://github.com/ndk6879/Leetcode-2024/tree/master/0006-zigzag-conversion) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
