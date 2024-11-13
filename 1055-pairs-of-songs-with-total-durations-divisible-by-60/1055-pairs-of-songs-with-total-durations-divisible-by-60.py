@@ -1,5 +1,3 @@
-from collections import Counter
-
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
         remainder = [0] * 60
