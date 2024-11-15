@@ -1,6 +1,6 @@
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
-        remainder = [0] * 61
+        remainder = [0] * 60
         ans = 0
 
         for t in time:
