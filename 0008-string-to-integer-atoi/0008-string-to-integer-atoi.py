@@ -29,4 +29,3 @@ class Solution:
         if ans == '':
             return (0)
         return (max(min_value, min(sign * int(ans), max_value)))
-
