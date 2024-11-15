@@ -1,27 +1,30 @@
 class Solution:
     def myAtoi(self, strs):
-        min_value = (-2)**31 
-        max_value = (2)**31 - 1
-        strs = strs.strip()
+        minValue = -2**(31)
+        maxValue = 2**(31)-1
+
+        s = strs.strip()
+        
 
         i = 0
         sign = 1
-        ans = ''
-        non_int = 0
-        while (i < len(strs)):
-            if i ==0 and strs[i] == '-':
-                sign = -1    
+        ans = 0
+        while(i<len(s)):
+            if s[i] == '+' and i == 0:
+                sign = 1
 
-            elif  i ==0 and strs[i] == '+':
-                sign = +1
-                
-            elif strs[i].isdigit():
-                ans += str(strs[i])
+            elif s[i] == '-' and i == 0:
+                sign = -1
 
+            elif s[i].isdigit():
+                print('strs[i]:',s[i])
+
+                ans = ans * 10 + int(s[i])
+            
             else:
                 break
+            i += 1
+            
+        ans = ans * sign
 
-            i+= 1
-        if ans == '':
-            return (0)
-        return (max(min_value, min(sign * int(ans), max_value)))
+        return max(min(maxValue, ans), minValue)
