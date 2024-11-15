@@ -1,38 +1,27 @@
 class Solution:
-    def myAtoi(self, s):
-        i, n = 0, len(s)
+    def myAtoi(self, strs):
+        min_value = (-2)**31 
+        max_value = (2)**31 - 1
+        strs = strs.strip()
+
+        i = 0
         sign = 1
-        result = 0
-        started = False  # 숫자 시작 여부를 추적하기 위한 변수
+        ans = ''
+        non_int = 0
+        while (i < len(strs)):
+            if i ==0 and strs[i] == '-':
+                sign = -1    
 
-        while i < n:
-            # 1. 공백 제거 (아직 숫자가 시작되지 않았을 때만)
-            if s[i] == ' ' and not started:
-                i += 1
-                continue
-            
-            # 2. 부호 확인 (아직 숫자가 시작되지 않았을 때만)
-            if s[i] in ('+', '-') and not started:
-                sign = -1 if s[i] == '-' else 1
-                started = True  # 이제 숫자가 시작되었다고 표시
-                i += 1
-                continue
-            
-            # 3. 숫자 추출
-            if s[i].isdigit():
-                result = result * 10 + int(s[i])
-                started = True  # 숫자 시작을 기록
+            elif  i ==0 and strs[i] == '+':
+                sign = +1
+                
+            elif strs[i].isdigit():
+                ans += str(strs[i])
+
             else:
-                break  # 숫자가 아닌 문자가 나오면 종료
-            
-            i += 1
+                break
 
-        # 4. 정수 범위 제한
-        result *= sign
-        int_min, int_max = -2**31, 2**31 - 1
-        if result < int_min:
-            return int_min
-        if result > int_max:
-            return int_max
-
-        return result
+            i+= 1
+        if ans == '':
+            return (0)
+        return (max(min_value, min(sign * int(ans), max_value)))
