@@ -8,7 +8,7 @@ class Solution:
 
         i = 0
         sign = 1
-        ans = 0
+        ans = ''
         while(i<len(s)):
             if s[i] == '+' and i == 0:
                 sign = 1
@@ -17,14 +17,15 @@ class Solution:
                 sign = -1
 
             elif s[i].isdigit():
-                print('strs[i]:',s[i])
-
-                ans = ans * 10 + int(s[i])
+                ans += s[i] 
             
             else:
                 break
             i += 1
             
-        ans = ans * sign
 
-        return max(min(maxValue, ans), minValue)
+        total = 0
+        for i in ans:
+            total = total*10 + ord(i) - ord('0')
+
+        return max(minValue, min(sign*total,maxValue) )
