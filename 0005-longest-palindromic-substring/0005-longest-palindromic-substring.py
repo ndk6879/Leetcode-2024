@@ -1,5 +1,7 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        # for loop에서 각각의 letter go through할때, each letter에서 outward로 체크하는거임. 이것만 기억하셈
+        
         ans = ''
         ansLen = 0
 
