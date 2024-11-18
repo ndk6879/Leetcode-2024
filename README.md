@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0098-validate-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0098-validate-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ndk6879/Leetcode-2024/tree/master/0230-kth-smallest-element-in-a-bst) |
