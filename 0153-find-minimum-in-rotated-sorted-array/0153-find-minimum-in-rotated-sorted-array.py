@@ -3,11 +3,12 @@ class Solution:
         l, r = 0, len(nums) - 1  
         ans = nums[0]
         while (l<=r):
-            mid = (l+r) // 2
-            print('mid:',nums[l],nums[mid],nums[r])
+            # if l~r portion is sorted 
             if nums[l] <= nums[r]: 
                 return min(nums[l], ans) 
 
+            # if not sorted
+            mid = (l+r) // 2
             ans = min(ans, nums[mid])
             if nums[l] <= nums[mid]:
                 l = mid + 1
