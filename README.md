@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ndk6879/Leetcode-2024/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/ndk6879/Leetcode-2024/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0206-reverse-linked-list) |
 ## Stack
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ndk6879/Leetcode-2024/tree/master/0050-powx-n) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0371-sum-of-two-integers](https://github.com/ndk6879/Leetcode-2024/tree/master/0371-sum-of-two-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
