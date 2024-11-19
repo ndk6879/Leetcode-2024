@@ -25,7 +25,7 @@ class MyQueue:
 
     def empty(self) -> bool:
         print(len(self.stack1),len(self.stack2))
-        return max(len(self.stack1),len(self.stack2)) == []
+        return max((self.stack1),(self.stack2)) == []
         
 
 
