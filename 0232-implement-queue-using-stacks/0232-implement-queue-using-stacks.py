@@ -10,14 +10,14 @@ class MyQueue:
         
 
     def pop(self) -> int:
-        if not self.stack2:
+        if self.stack2 == []:
             while self.stack1:
                 self.stack2.append(self.stack1.pop())
         return self.stack2.pop()
         
 
     def peek(self) -> int:
-        if not self.stack2:
+        if self.stack2 == []:
             while self.stack1:
                 self.stack2.append(self.stack1.pop())
         return self.stack2[-1]
@@ -25,7 +25,7 @@ class MyQueue:
 
     def empty(self) -> bool:
         print(len(self.stack1),len(self.stack2))
-        return not min(len(self.stack1),len(self.stack2)) == []
+        return max(len(self.stack1),len(self.stack2)) == []
         
 
 
