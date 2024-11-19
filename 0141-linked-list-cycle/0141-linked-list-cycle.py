@@ -9,7 +9,7 @@ class Solution:
         if not head: return []
         fast = head
         slow = head
-        while(fast.next and fast.next.next):
+        while(fast and fast.next):
             fast = fast.next.next
             slow = slow.next
             if slow == fast: return True
