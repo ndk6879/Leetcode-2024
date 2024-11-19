@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0143-reorder-list) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0144-binary-tree-preorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/ndk6879/Leetcode-2024/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndk6879/Leetcode-2024/tree/master/0232-implement-queue-using-stacks) |
 ## Hash Table
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0102-binary-tree-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ndk6879/Leetcode-2024/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0100-same-tree) |
 | [0133-clone-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0133-clone-graph) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ndk6879/Leetcode-2024/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0226-invert-binary-tree) |
@@ -145,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0102-binary-tree-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0144-binary-tree-preorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ndk6879/Leetcode-2024/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
