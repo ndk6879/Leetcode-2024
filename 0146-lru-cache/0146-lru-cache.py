@@ -14,11 +14,8 @@ class LRUCache:
         
 
     def put(self, key: int, value: int) -> None:
-        
-        if key in self.cache:
-            self.cache.move_to_end(key)
         self.cache[key] = value
-        if self.cap < len(self.cache):
+        if len(self.cache) > self.cap:
             self.cache.popitem(last=False)
         
 
