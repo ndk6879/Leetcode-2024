@@ -1,23 +1,17 @@
 from collections import Counter
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        map_s_to_t = {}
-        map_t_to_s = {}
+        dictS, dictT = {}, {}
 
-        for char_s, char_t in zip(s, t):
-            # s -> t 매핑 확인
-            if char_s in map_s_to_t:
-                if map_s_to_t[char_s] != char_t:
-                    return False
-            else:
-                map_s_to_t[char_s] = char_t
+        for a,b in zip(s,t):
+            if a in dictS:
+                if dictS[a] != b: return False
+            else: 
+                dictS[a] = b
 
-            # t -> s 매핑 확인
-            if char_t in map_t_to_s:
-                if map_t_to_s[char_t] != char_s:
-                    return False
-            else:
-                map_t_to_s[char_t] = char_s
-
+            if b in dictT:
+                if dictT[b] != a: return False
+            else: 
+                dictT[b] = a
         return True
 
