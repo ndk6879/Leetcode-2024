@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/ndk6879/Leetcode-2024/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
 | [0647-palindromic-substrings](https://github.com/ndk6879/Leetcode-2024/tree/master/0647-palindromic-substrings) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ndk6879/Leetcode-2024/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndk6879/Leetcode-2024/tree/master/0232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
 ## Bit Manipulation
 |  |
 | ------- |
