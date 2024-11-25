@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/ndk6879/Leetcode-2024/tree/master/0238-product-of-array-except-self) |
+| [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0152-maximum-product-subarray) |
+| [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/ndk6879/Leetcode-2024/tree/master/0647-palindromic-substrings) |
 | [2464-time-needed-to-rearrange-a-binary-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2464-time-needed-to-rearrange-a-binary-string) |
 ## Linked List
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ndk6879/Leetcode-2024/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0226-invert-binary-tree) |
+| [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
 ## Binary Tree
 |  |
