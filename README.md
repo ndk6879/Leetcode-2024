@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ndk6879/Leetcode-2024/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0152-maximum-product-subarray) |
 | [0647-palindromic-substrings](https://github.com/ndk6879/Leetcode-2024/tree/master/0647-palindromic-substrings) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ndk6879/Leetcode-2024/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0371-sum-of-two-integers](https://github.com/ndk6879/Leetcode-2024/tree/master/0371-sum-of-two-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
@@ -292,4 +294,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2464-time-needed-to-rearrange-a-binary-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2464-time-needed-to-rearrange-a-binary-string) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
