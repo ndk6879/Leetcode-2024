@@ -1,18 +1,12 @@
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        mask = 0xFFFFFFFF  # 32-bit mask
-        max_int = 0x7FFFFFFF  # Maximum positive 32-bit integer
+        mask = 0xFFFFFFFF
+        mask_int = 0x7FFFFFFF
         
         while b != 0:
-            # XOR for addition without carry
-            sum_without_carry = (a ^ b) & mask
-            
-            # AND and shift for carry
+            total = (a ^ b) & mask
             carry = ((a & b) << 1) & mask
-            
-            # Update a and b
-            a = sum_without_carry
+            a = total
             b = carry
+        return a if a <= mask_int else ~(a ^ mask)
         
-        # Handle negative numbers
-        return a if a <= max_int else ~(a ^ mask)
