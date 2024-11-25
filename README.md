@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/ndk6879/Leetcode-2024/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0039-combination-sum) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ndk6879/Leetcode-2024/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/ndk6879/Leetcode-2024/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ndk6879/Leetcode-2024/tree/master/0141-linked-list-cycle) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ndk6879/Leetcode-2024/tree/master/0011-container-with-most-water) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
