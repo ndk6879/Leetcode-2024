@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ndk6879/Leetcode-2024/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/ndk6879/Leetcode-2024/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ndk6879/Leetcode-2024/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
