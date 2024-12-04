@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/ndk6879/Leetcode-2024/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/ndk6879/Leetcode-2024/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0152-maximum-product-subarray) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/ndk6879/Leetcode-2024/tree/master/0008-string-to-integer-atoi) |
 | [0020-valid-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/ndk6879/Leetcode-2024/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
