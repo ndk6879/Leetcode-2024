@@ -13,4 +13,4 @@ class Solution:
         if not subRoot: return True
         if not root: return False
         if isSameTree(root, subRoot): return True
-        return isSameTree(root.left, subRoot) or isSameTree(root.right, subRoot)
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
