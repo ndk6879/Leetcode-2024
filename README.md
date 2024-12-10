@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0039-combination-sum) |
+| [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ndk6879/Leetcode-2024/tree/master/0056-merge-intervals) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ndk6879/Leetcode-2024/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0133-clone-graph) |
@@ -200,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/ndk6879/Leetcode-2024/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/ndk6879/Leetcode-2024/tree/master/0008-string-to-integer-atoi) |
 | [0020-valid-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/ndk6879/Leetcode-2024/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
