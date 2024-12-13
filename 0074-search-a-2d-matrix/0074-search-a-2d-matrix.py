@@ -17,17 +17,17 @@ class Solution:
         print('row:',row)
 
         l, r = 0, len(matrix[0]) - 1
-        while (l < r):
+        while (l <= r):
             mid = (l+r)//2
             print('matrix[row][mid]:',l,r,matrix[row][mid])
             if matrix[row][mid] == target:
                 return True
 
-            elif matrix[row][mid] > target:
+            elif matrix[row][mid] < target:
                 l = mid + 1
             
             else:
-                r = mid
-            print('matrix[row][mid]:',l,r,matrix[row][mid])
+                r = mid - 1
+                
 
-        return False
+        return matrix[row][mid] == target
