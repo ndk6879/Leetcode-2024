@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ndk6879/Leetcode-2024/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ndk6879/Leetcode-2024/tree/master/0057-insert-interval) |
+| [0074-search-a-2d-matrix](https://github.com/ndk6879/Leetcode-2024/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndk6879/Leetcode-2024/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/ndk6879/Leetcode-2024/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0098-validate-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ndk6879/Leetcode-2024/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ndk6879/Leetcode-2024/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
