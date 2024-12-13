@@ -10,4 +10,3 @@ class Solution:
                 r = mid
         
         return nums[l]
-        
