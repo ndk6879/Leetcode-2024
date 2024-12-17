@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0907-koko-eating-bananas](https://github.com/ndk6879/Leetcode-2024/tree/master/0907-koko-eating-bananas) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0300-longest-increasing-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0907-koko-eating-bananas](https://github.com/ndk6879/Leetcode-2024/tree/master/0907-koko-eating-bananas) |
 ## Divide and Conquer
 |  |
 | ------- |
