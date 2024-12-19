@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ndk6879/Leetcode-2024/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ndk6879/Leetcode-2024/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/ndk6879/Leetcode-2024/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/ndk6879/Leetcode-2024/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/ndk6879/Leetcode-2024/tree/master/0008-string-to-integer-atoi) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ndk6879/Leetcode-2024/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
