@@ -1,21 +1,22 @@
-from collections import Counter
-
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        s1Cnt = Counter(s1)
-        windowCnt = Counter()
-        l = 0  # 윈도우의 시작점
+        from collections import Counter
         
-        for r in range(len(s2)):  # r은 윈도우의 끝점
-            # 윈도우에 새 문자 추가
-            windowCnt[s2[r]] += 1
-            
-            while r - l + 1 > len(s1):
-                windowCnt[s2[l]] -= 1
-                l += 1  # 윈도우의 시작점을 한 칸 오른쪽으로 이동
-            
-            # 윈도우와 s1의 문자 카운트 비교
-            if windowCnt == s1Cnt:
-                return True
-        
+        s1Counter = Counter(s1)
+        l = 0
+        hashMap = {}
+
+        for r in range(len(s2)):
+            if s2[r] not in hashMap:
+                hashMap[s2[r]] = 1
+            else:
+                hashMap[s2[r]] += 1
+
+            while r + 1 - l > len(s1):
+                hashMap[s2[l]] -= 1
+                if hashMap[s2[l]] == 0:
+                    del hashMap[s2[l]]
+                l += 1
+
+            if hashMap == s1Counter: return True
         return False
