@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/ndk6879/Leetcode-2024/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/ndk6879/Leetcode-2024/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/ndk6879/Leetcode-2024/tree/master/0377-combination-sum-iv) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0225-implement-stack-using-queues](https://github.com/ndk6879/Leetcode-2024/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndk6879/Leetcode-2024/tree/master/0232-implement-queue-using-stacks) |
+| [0303-range-sum-query-immutable](https://github.com/ndk6879/Leetcode-2024/tree/master/0303-range-sum-query-immutable) |
 | [1023-time-based-key-value-store](https://github.com/ndk6879/Leetcode-2024/tree/master/1023-time-based-key-value-store) |
 ## Trie
 |  |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/ndk6879/Leetcode-2024/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/ndk6879/Leetcode-2024/tree/master/0303-range-sum-query-immutable) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
 ## Heap (Priority Queue)
 |  |
