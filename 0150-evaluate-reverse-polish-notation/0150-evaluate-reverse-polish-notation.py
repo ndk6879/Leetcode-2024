@@ -28,7 +28,7 @@ class Solution:
             elif token == '/':
                 num1 = stack.pop()
                 num2 = stack.pop()
-                stack.append(int(float(num2) / num1))
+                stack.append(int((num2) / num1))
             # print('stack:',stack)
             
         return stack[-1]
