@@ -1,22 +1,32 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        from collections import Counter
-        
-        s1Counter = Counter(s1)
-        l = 0
-        hashMap = {}
+        s1Count = {}
 
-        for r in range(len(s2)):
-            if s2[r] not in hashMap:
-                hashMap[s2[r]] = 1
+        for i in s1:
+            if i not in s1Count:
+                s1Count[i] = 1
             else:
-                hashMap[s2[r]] += 1
+                s1Count[i] += 1
 
-            while r + 1 - l > len(s1):
-                hashMap[s2[l]] -= 1
-                if hashMap[s2[l]] == 0:
-                    del hashMap[s2[l]]
+        s2Count = {}
+        l = 0
+        for i in range(len(s2)):
+
+            if s2[i] not in s2Count:
+                s2Count[s2[i]] = 1
+
+            else:
+                s2Count[s2[i]] += 1
+
+            print('s2Count:',s2Count)
+
+            while i + 1 - l > len(s1):
+                s2Count[s2[l]] -= 1
+                if s2Count[s2[l]] == 0:
+                    del s2Count[s2[l]]
                 l += 1
 
-            if hashMap == s1Counter: return True
+            if s2Count == s1Count:
+                return True
+
         return False
