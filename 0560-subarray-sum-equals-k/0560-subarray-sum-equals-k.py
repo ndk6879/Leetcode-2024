@@ -1,3 +1,8 @@
+'''
+ChatGPT에서 설명해줬음.
+2 Sum이랑 비슷하게 생각해봐
+'''
+
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         hashMap = {0 : 1}
