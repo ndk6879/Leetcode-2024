@@ -5,7 +5,6 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-
         dummy = None
 
         while head:
@@ -13,5 +12,5 @@ class Solution:
             head.next = dummy
             dummy = head
             head = tmp
-        return dummy
         
+        return dummy
