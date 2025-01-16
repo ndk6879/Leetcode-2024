@@ -341,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ndk6879/Leetcode-2024/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0371-sum-of-two-integers](https://github.com/ndk6879/Leetcode-2024/tree/master/0371-sum-of-two-integers) |
+| [0593-valid-square](https://github.com/ndk6879/Leetcode-2024/tree/master/0593-valid-square) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
 ## Sliding Window
 |  |
@@ -403,4 +404,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+## Geometry
+|  |
+| ------- |
+| [0593-valid-square](https://github.com/ndk6879/Leetcode-2024/tree/master/0593-valid-square) |
 <!---LeetCode Topics End-->
