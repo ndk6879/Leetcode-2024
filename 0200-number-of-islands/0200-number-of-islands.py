@@ -16,7 +16,6 @@ class Solution:
                 dfs(i,j+1)
                 dfs(i,j-1)
                 return True
-            return True
 
 
 
