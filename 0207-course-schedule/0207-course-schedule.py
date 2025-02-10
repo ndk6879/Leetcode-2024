@@ -1,29 +1,35 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adict = {}
-        for i in range(numCourses):
-            adict[i] = []
         
+        courses = {}
+        for i in range(numCourses):
+            courses[i] = []
+        print('courses:',courses)
+
         for crs, preq in prerequisites:
-            adict[crs].append(preq)
+            courses[crs].append(preq)
+
+        print('courses:',courses)
+
 
         visit = set()
-        print('adict:',adict)
         def dfs(crs):
-            if adict[crs] == []: return True
-            if crs in visit: return False
+            if courses[crs] == []: 
+                return True
 
-            visit.add(crs)
-            print('adict[crs]:',adict[crs])
-            for preq in adict[crs]:
-                if not dfs(preq): return False
-            visit.remove(crs)  
-            adict[crs] = []
-            return True
-        
-        
-        for i in range(numCourses):
-            if not dfs(i):
+            if crs in visit:
                 return False
 
-        return True
+            visit.add(crs)
+            for preq in courses[crs]:
+                if not dfs(preq): return False
+
+            visit.remove(crs)
+            courses[crs] = []
+            return True
+
+            
+
+        for i in range(numCourses):
+            if not dfs(i): return False
+        return True 
