@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0567-permutation-in-string) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0567-permutation-in-string) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
 | [0647-palindromic-substrings](https://github.com/ndk6879/Leetcode-2024/tree/master/0647-palindromic-substrings) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/ndk6879/Leetcode-2024/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/1250-longest-common-subsequence) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2186-count-vowel-substrings-of-a-string) |
@@ -346,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -355,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ndk6879/Leetcode-2024/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -391,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+| [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1127-last-stone-weight) |
 | [1539-diagonal-traverse-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/1539-diagonal-traverse-ii) |
