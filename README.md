@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
+| [0747-min-cost-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0747-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
 | [0907-koko-eating-bananas](https://github.com/ndk6879/Leetcode-2024/tree/master/0907-koko-eating-bananas) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/ndk6879/Leetcode-2024/tree/master/0377-combination-sum-iv) |
 | [0647-palindromic-substrings](https://github.com/ndk6879/Leetcode-2024/tree/master/0647-palindromic-substrings) |
+| [0747-min-cost-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0747-min-cost-climbing-stairs) |
 | [1250-longest-common-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/1250-longest-common-subsequence) |
 | [2464-time-needed-to-rearrange-a-binary-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2464-time-needed-to-rearrange-a-binary-string) |
 ## Linked List
