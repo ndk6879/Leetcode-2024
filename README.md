@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ndk6879/Leetcode-2024/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/ndk6879/Leetcode-2024/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/ndk6879/Leetcode-2024/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/ndk6879/Leetcode-2024/tree/master/0091-decode-ways) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/ndk6879/Leetcode-2024/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ndk6879/Leetcode-2024/tree/master/0046-permutations) |
