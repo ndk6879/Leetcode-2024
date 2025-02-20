@@ -3,15 +3,13 @@ class Solution:
 
         ans = []
         cur = []
-
         def dfs(i):
-            if i >= len(nums):
+            if i >= len(nums): 
                 ans.append(cur.copy())
                 return
 
             cur.append(nums[i])
             dfs(i+1)
-
             cur.pop()
             dfs(i+1)
 
