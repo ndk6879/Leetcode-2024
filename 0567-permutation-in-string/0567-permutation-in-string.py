@@ -4,7 +4,7 @@ class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         
         s1Counter = Counter(s1)
-        s2Counter = {}
+        s2Counter = Counter()
 
         l = 0
 
