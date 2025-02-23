@@ -1,32 +1,27 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        '''
-        - 1. if open == close == n: add to ans
-        - 2. if open < n: +1 open
-        - 3. if close < open: +1 close
-        '''
-
         ans = []
-        stack = []
-        
-        def dfs(openP, closeP):
-            if openP == closeP == n:
-                cur = "".join(stack)
-                ans.append(cur)
+        cur = []
+
+        def dfs(openP,closedP):
+
+            if openP == closedP == n:
+                tmp = ''.join(cur)
+                ans.append(tmp)
                 return
 
             if openP < n:
-                stack.append('(')
-                dfs(openP + 1 , closeP)
-                stack.pop()
+                cur.append('(')
+                dfs(openP+1,closedP)
+                cur.pop()
 
-            if closeP < openP:
-                stack.append(')')
-                dfs(openP , closeP + 1)
-                stack.pop()
+            if closedP < openP:
+                cur.append(')')
+                dfs(openP, closedP + 1)
+                cur.pop()
 
 
-        dfs(0,0)
+
+
+        dfs(0, 0)
         return ans
-
-        
