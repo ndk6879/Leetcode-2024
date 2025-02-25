@@ -3,20 +3,20 @@ class Solution:
         cur = []
         ans = []
 
-        def dfs(i):
-            if sum(cur) == target:
+        def dfs(i, total):
+            if total == target:
                 ans.append(cur.copy())
                 return
 
-            elif sum(cur) > target or i >= len(candidates):
+            elif total > target or i >= len(candidates):
                 return False
 
             cur.append(candidates[i])
-            dfs(i)
+            dfs(i, total + candidates[i])
 
             cur.pop()
-            dfs(i+1)
+            dfs(i+1, total)
 
-        dfs(0)
+        dfs(0,0)
 
         return ans     
