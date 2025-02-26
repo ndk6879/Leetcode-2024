@@ -8,11 +8,9 @@ class Solution:
         heapq.heapify(heap)
         prev = [0,'']
         ans = ''
-        print('heap:',heap)
 
         while heap:
             freq, char = heapq.heappop(heap)
-            print('freq:',freq, 'char:',char)
             ans += char
 
             if prev[0] < 0:
