@@ -2,11 +2,13 @@ import heapq
 
 class Solution:
     def maxSum(self, grid: List[List[int]], limits: List[int], k: int) -> int:
-        arr = []
+        ans = []
 
         for i in range(len(grid)):
-            cur = heapq.nlargest(limits[i],grid[i])
-            arr += cur
+            cur = heapq.nlargest(limits[i], grid[i])
+            ans += cur
 
-        heapq.heapify(arr)
-        return sum(heapq.nlargest(k,arr))
+        heapq.heapify(ans)
+        print('ans:',ans)
+        cur = heapq.nlargest(k, ans)
+        return sum(cur)
