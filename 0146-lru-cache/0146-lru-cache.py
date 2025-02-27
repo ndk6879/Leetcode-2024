@@ -8,19 +8,23 @@ class LRUCache:
         
 
     def get(self, key: int) -> int:
-        if not key in self.cache:
+        if key not in self.cache:
             return -1
+            
         self.cache.move_to_end(key)
         return self.cache[key]
 
     def put(self, key: int, value: int) -> None:
         self.cache[key] = value
         self.cache.move_to_end(key)
-
         if len(self.cache) > self.capacity:
             self.cache.popitem(last = False)
+        
+        
+
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
+
 # obj.put(key,value)
