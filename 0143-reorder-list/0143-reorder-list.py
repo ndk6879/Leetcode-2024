@@ -15,8 +15,9 @@ class Solution:
             fast = fast.next.next
             
         second = slow.next #4
-        prev = slow.next = None
         
+        slow.next = None
+        prev = None 
         #2. reverse second half
         while second:
             tmp = second.next
