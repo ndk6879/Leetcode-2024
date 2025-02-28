@@ -9,14 +9,12 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
         
-        #1. find middle
-        slow, fast = head, head.next
-        while fast and fast.next:
+        slow, fast = head, head
+        while(fast and fast.next):
             slow = slow.next
             fast = fast.next.next
-        print('slow:',slow)
-
-        second = slow.next
+            
+        second = slow.next #4
         prev = slow.next = None
         
         #2. reverse second half
@@ -25,11 +23,9 @@ class Solution:
             second.next = prev
             prev = second
             second = tmp
-
-
-        first = head
-        second = prev
-
+        
+        
+        first, second = head, prev
         while first and second:
             tmp1, tmp2 = first.next, second.next
             first.next = second
