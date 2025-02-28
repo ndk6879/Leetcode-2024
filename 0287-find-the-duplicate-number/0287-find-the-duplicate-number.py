@@ -15,4 +15,4 @@ class Solution:
             slow2 = nums[slow2]
             if slow == slow2:
                 break
-        return slow
+        return slow2
