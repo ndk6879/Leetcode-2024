@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/ndk6879/Leetcode-2024/tree/master/0377-combination-sum-iv) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ndk6879/Leetcode-2024/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ndk6879/Leetcode-2024/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -369,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/ndk6879/Leetcode-2024/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndk6879/Leetcode-2024/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/ndk6879/Leetcode-2024/tree/master/0303-range-sum-query-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
 | [1023-time-based-key-value-store](https://github.com/ndk6879/Leetcode-2024/tree/master/1023-time-based-key-value-store) |
@@ -425,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ndk6879/Leetcode-2024/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0371-sum-of-two-integers](https://github.com/ndk6879/Leetcode-2024/tree/master/0371-sum-of-two-integers) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0593-valid-square](https://github.com/ndk6879/Leetcode-2024/tree/master/0593-valid-square) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
@@ -522,4 +526,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/ndk6879/Leetcode-2024/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
