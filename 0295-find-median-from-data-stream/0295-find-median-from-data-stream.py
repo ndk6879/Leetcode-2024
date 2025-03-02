@@ -1,43 +1,20 @@
+import heapq
+
 class MedianFinder:
+
     def __init__(self):
-        self.small = []
-        self.large = []
+        self.small = []  # max-heap (Python은 min-heap만 지원하므로 음수값 저장)
+        self.large = []  # min-heap
 
     def addNum(self, num: int) -> None:
-        heapq.heappush(self.small,-1*num)
+        heapq.heappush(self.small, -num)  # max-heap처럼 사용하기 위해 음수로 저장
+        heapq.heappush(self.large, -heapq.heappop(self.small))  # 큰 값은 large로 이동
 
-        #make sure every value in small heap <= every value in large heap
-        if (self.small and self.large) and self.small[0] * -1 > self.large[0]:
-            val = heapq.heappop(self.small)
-            heapq.heappush(self.large, val*-1)
-        
-        #for uneven size
-        if len(self.small) > len(self.large) + 1:
-            val = heapq.heappop(self.small)
-            heapq.heappush(self.large, val*-1)
-        
-        elif len(self.small) +1 < len(self.large):
-            val = heapq.heappop(self.large)
-            heapq.heappush(self.small, val*-1)
-        
-
+        if len(self.small) < len(self.large):  # 균형 유지
+            heapq.heappush(self.small, -heapq.heappop(self.large))
 
     def findMedian(self) -> float:
-        # print('HEAP:',self.small,self.large)
-        if len(self.small) > len(self.large):
-            return self.small[0] * -1
-
-        elif len(self.small) < len(self.large):
-            return self.large[0]
-
-        return ((self.small[0] * -1) + self.large[0]) / 2
-
-        
-        
-
-        
-
-# Your MedianFinder object will be instantiated and called as such:
-# obj = MedianFinder()
-# obj.addNum(num)
-# param_2 = obj.findMedian()
+        if len(self.small) > len(self.large):  # 홀수 개일 때
+            return -self.small[0]
+        else:  # 짝수 개일 때
+            return (-self.small[0] + self.large[0]) / 2
