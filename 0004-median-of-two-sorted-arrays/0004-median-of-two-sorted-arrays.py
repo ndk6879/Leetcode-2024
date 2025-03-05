@@ -3,28 +3,31 @@ class Solution:
         A, B = nums1, nums2
 
         if len(A) > len(B):
-            A, B = B, A
+            A,B = B, A
 
         start, end = 0, len(A) - 1
 
         while True:
-            mid1 = (start + end ) // 2
-            mid2 = ((len(A) + len(B)) // 2) - mid1 - 2
+            mid1 = (start + end) // 2
+            mid2 = (len(A) + len(B))//2 - mid1 - 2
 
-            Aleft = A[mid1] if mid1 >=0 else float("-infinity")
-            Aright = A[mid1+1] if mid1+1 < len(A) else float("infinity")
-            Bleft = B[mid2] if mid2 >=0 else float("-infinity")
-            Bright = B[mid2+1] if mid2+1 < len(B) else float("infinity")
+            leftA = A[mid1] if mid1 >=0 else float("-infinity")
+            rightA = A[mid1+1] if mid1+1 < len(A) else float("infinity")
+            leftB = B[mid2] if mid2 >=0 else float("-infinity")
+            rightB = B[mid2+1] if mid2+1 < len(B) else float("infinity")
 
-            if Aleft <= Bright and Bleft <= Aright:
+            # print('mid1:',mid1)
+            if leftA <= rightB and leftB <= rightA:
+                
                 if (len(A) + len(B)) % 2 == 0:
-                    return (max(Aleft,Bleft) + min(Aright, Bright)) / 2
+                    return (max(leftA,leftB) + min(rightA,rightB)) / 2
 
                 else:
-                    return min(Aright, Bright)
+                    return min(rightA,rightB)
 
-            elif Aleft > Bright:
+
+            elif leftA > rightB:
                 end = mid1 - 1
-            
             else:
                 start = mid1 + 1
+
