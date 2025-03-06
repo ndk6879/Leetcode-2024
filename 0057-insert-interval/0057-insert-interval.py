@@ -14,7 +14,8 @@ class Solution:
 
             #Not Overlap 2
             elif intervals[i][0] > cur[1]:
-                return ans + [cur] + intervals[i:]
+                ans.append(cur)
+                return ans + intervals[i:]
 
             #Overlap 
             else:
