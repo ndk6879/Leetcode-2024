@@ -1,6 +1,5 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
-        if not intervals: return [newInterval]
 
         cur = newInterval
         ans = []
@@ -21,5 +20,5 @@ class Solution:
             else:
                 cur = [min(intervals[i][0], cur[0]), max(intervals[i][1] ,cur[1])]
                 print('cur:',cur)
-        
+        ans.append(cur)
         return ans
