@@ -11,11 +11,9 @@ class Solution:
         
         def helper(node):
             if not node: return True
-            if node.left:
-                helper(node.left)
+            helper(node.left)
             arr.append(node.val)
-            if node.right:
-                helper(node.right)
+            helper(node.right)
             
 
 
