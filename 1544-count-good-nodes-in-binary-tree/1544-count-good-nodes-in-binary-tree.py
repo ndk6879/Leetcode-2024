@@ -14,8 +14,6 @@ class Solution:
 
             if node.val >= val:
                 ans += 1
-
-            if node.val >= val:
                 val = node.val
 
             dfs(node.left, val)
