@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/ndk6879/Leetcode-2024/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0747-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
+| [0860-design-circular-queue](https://github.com/ndk6879/Leetcode-2024/tree/master/0860-design-circular-queue) |
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/ndk6879/Leetcode-2024/tree/master/0907-koko-eating-bananas) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ndk6879/Leetcode-2024/tree/master/0237-delete-node-in-a-linked-list) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
+| [0860-design-circular-queue](https://github.com/ndk6879/Leetcode-2024/tree/master/0860-design-circular-queue) |
 ## Recursion
 |  |
 | ------- |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
+| [0860-design-circular-queue](https://github.com/ndk6879/Leetcode-2024/tree/master/0860-design-circular-queue) |
 | [1023-time-based-key-value-store](https://github.com/ndk6879/Leetcode-2024/tree/master/1023-time-based-key-value-store) |
 | [1708-design-parking-system](https://github.com/ndk6879/Leetcode-2024/tree/master/1708-design-parking-system) |
 ## Trie
@@ -491,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/ndk6879/Leetcode-2024/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndk6879/Leetcode-2024/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
+| [0860-design-circular-queue](https://github.com/ndk6879/Leetcode-2024/tree/master/0860-design-circular-queue) |
 ## Bit Manipulation
 |  |
 | ------- |
