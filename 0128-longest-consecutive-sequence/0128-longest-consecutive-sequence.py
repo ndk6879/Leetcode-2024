@@ -6,10 +6,10 @@ class Solution:
         sett = set(nums)
         for num in nums:
             if num - 1 not in sett:
-                cur = num
-                tmp = 0
-                while cur in sett:
-                    cur += 1
-                    tmp += 1
-                ans = max(ans,tmp)
+                i = 1
+                cnt = 1
+                while num+i in sett:
+                    cnt += 1
+                    i += 1
+                ans = max(ans,cnt)
         return ans
