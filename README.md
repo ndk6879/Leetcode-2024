@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
+| [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/ndk6879/Leetcode-2024/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0792-binary-search) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ndk6879/Leetcode-2024/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -382,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ndk6879/Leetcode-2024/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/ndk6879/Leetcode-2024/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Design
@@ -412,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/ndk6879/Leetcode-2024/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 ## Graph
 |  |
 | ------- |
