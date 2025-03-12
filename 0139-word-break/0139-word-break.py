@@ -12,7 +12,7 @@ class Solution:
                     print(res,'\n')
                     res[i] = res[i+len(word)]
 
-                #
+                #이게 없으면 이미 True였다 False로 업데이트 될수도 있어서 하는게 좋음.
                 if res[i]:
                     break
 
