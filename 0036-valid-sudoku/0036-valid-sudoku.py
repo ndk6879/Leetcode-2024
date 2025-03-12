@@ -2,30 +2,21 @@ from collections import defaultdict
 
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        rows = defaultdict(list)
-        cols = defaultdict(list)
-        squares = defaultdict(list)
-
-
+        rows = defaultdict(set)
+        cols = defaultdict(set)
+        squares = defaultdict(set)
+        
         for r in range(len(board)):
             for c in range(len(board[0])):
-                cur = board[r][c]
-                
-                if cur == '.': continue
-                if cur in rows[r]: 
-                    print('rows' , cur ,  rows[r])
-                    return False
-                if  cur in cols[c]: 
-                    print('cols')
-                    return False
-                if  cur in squares[( r//3 , c//3  )] : 
-                    print('squares')
+                value = board[r][c]
+
+                if value == '.': continue
+
+                if value in rows[r] or value in cols[c] or value in squares[(r,c)]:
                     return False
 
-                
+                rows[r].add(value)
+                cols[c].add(value)
+                squares[(r,c)].add(value)
 
-
-                rows[r].append(cur)
-                cols[c].append(cur)
-                squares[ (r//3, c//3)  ].append(cur)
         return True
