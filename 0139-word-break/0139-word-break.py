@@ -7,11 +7,12 @@ class Solution:
         for i in range(len(s)-1,-1,-1):
             for word in wordDict:
 
-                if i + len(word) <= len(s) and s[i:i+len(word)] == word:
+                if s[i:i+len(word)] == word:
                     print(s[i:i+len(word)] , word)
                     print(res,'\n')
                     res[i] = res[i+len(word)]
 
+                #
                 if res[i]:
                     break
 
