@@ -12,11 +12,11 @@ class Solution:
 
                 if value == '.': continue
 
-                if value in rows[r] or value in cols[c] or value in squares[(r,c)]:
+                if value in rows[r] or value in cols[c] or value in squares[(r//3,c//3)]:
                     return False
 
                 rows[r].add(value)
                 cols[c].add(value)
-                squares[(r,c)].add(value)
+                squares[(r//3,c//3)].add(value)
 
         return True
