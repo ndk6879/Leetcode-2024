@@ -8,7 +8,8 @@ class Solution:
 
         for r in range(len(s)):
             if s[r] in cur:
-                l = max(hashMap[s[r]] + 1, l)
+                l = max(hashMap[s[r]] + 1,l)
+                print(l)
 
             hashMap[s[r]] = r
             cur += s[r]
