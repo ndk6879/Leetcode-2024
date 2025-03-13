@@ -6,7 +6,7 @@ class Solution:
 
         for i in range(1,len(intervals)):
             if cur[0] > intervals[i][1]:
-                ans.append(cur)
+                ans.append(intervals[i])
 
             elif cur[1] < intervals[i][0]:
                 ans.append(cur)
