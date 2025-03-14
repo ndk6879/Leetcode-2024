@@ -10,8 +10,6 @@ class Solution:
             
             while(( (r+1-l) - max(hashMap.values()) > k )):
                 hashMap[s[l]] -= 1
-                if hashMap[s[l]] == 0:
-                    del hashMap[s[l]]
                 l += 1
 
 
