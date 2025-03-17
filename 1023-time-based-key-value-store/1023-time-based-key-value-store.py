@@ -12,11 +12,10 @@ class TimeMap:
         
 
     def get(self, key: str, timestamp: int) -> str:
-        ans = 0
         if key not in self.hash: return ''
 
         l, r = 0, len(self.hash[key])-1
-        ans = 0
+        ans = ''
 
         while (l <= r):
             mid = (l + r) // 2
