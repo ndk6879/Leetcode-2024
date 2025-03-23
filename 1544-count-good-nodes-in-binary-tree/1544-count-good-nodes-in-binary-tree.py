@@ -4,6 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+'''
+이것도 DFS를 이용해 풀면됨.
+base case와 recursive case때 어떻게 할지 생각하면서 풀면 쉽게 가능.
+햇갈리면 이전에 543. Diameter of Binary Tree, 110. Balanced Binary Tree 같은 DFS문제 ㄱㄱ
+'''
+
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         self.ans = 0
