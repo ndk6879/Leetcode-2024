@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/ndk6879/Leetcode-2024/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/ndk6879/Leetcode-2024/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0747-min-cost-climbing-stairs) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/ndk6879/Leetcode-2024/tree/master/0435-non-overlapping-intervals) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/ndk6879/Leetcode-2024/tree/master/0883-car-fleet) |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0817-design-hashmap](https://github.com/ndk6879/Leetcode-2024/tree/master/0817-design-hashmap) |
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0387-first-unique-character-in-a-string) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -452,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ndk6879/Leetcode-2024/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/ndk6879/Leetcode-2024/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/ndk6879/Leetcode-2024/tree/master/0435-non-overlapping-intervals) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -498,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ndk6879/Leetcode-2024/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/ndk6879/Leetcode-2024/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
