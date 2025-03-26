@@ -4,23 +4,22 @@ import heapq
 class Solution:
     def reorganizeString(self, s: str) -> str:
         counter = Counter(s)
-        heap = [ [-freq, char]  for char, freq in counter.items()]
+        arr = [[-v,k] for k,v in counter.items()]
+        heapq.heapify(arr)
 
-        heapq.heapify(heap)
-        print('heap:',heap)
+        print('arr:',arr)
+
         ans = ''
-        prev = [0,'']
-        while heap:
-            freq,char = heapq.heappop(heap)
-            ans += char
-            print('ans:',ans, heap)
-            if prev[0] < 0:
-                heapq.heappush(heap,prev)
-
-
-            prev = [freq+1 , char]
+        tmp = [0,'']
+        while arr:
+            cnt, character = heapq.heappop(arr)
+            if tmp[0] < 0:
+                heapq.heappush(arr,tmp)
             
-        return ans if len(ans) == len(s) else ""
-
+            tmp = [cnt + 1,character]
+            ans += character
+            
+            print('ans:',ans,'\narr:',arr,'\n')
 
         
+        return ans if len(ans) == len(s) else ""
