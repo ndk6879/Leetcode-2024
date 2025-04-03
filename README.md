@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1306-minimum-absolute-difference](https://github.com/ndk6879/Leetcode-2024/tree/master/1306-minimum-absolute-difference) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
 | [1539-diagonal-traverse-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/1539-diagonal-traverse-ii) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ndk6879/Leetcode-2024/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2354-minimum-health-to-beat-game](https://github.com/ndk6879/Leetcode-2024/tree/master/2354-minimum-health-to-beat-game) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1108-analyze-user-website-visit-pattern](https://github.com/ndk6879/Leetcode-2024/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1306-minimum-absolute-difference](https://github.com/ndk6879/Leetcode-2024/tree/master/1306-minimum-absolute-difference) |
 | [1539-diagonal-traverse-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/1539-diagonal-traverse-ii) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ndk6879/Leetcode-2024/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Dynamic Programming
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/ndk6879/Leetcode-2024/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ndk6879/Leetcode-2024/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -454,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ndk6879/Leetcode-2024/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1708-design-parking-system](https://github.com/ndk6879/Leetcode-2024/tree/master/1708-design-parking-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Greedy
@@ -469,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ndk6879/Leetcode-2024/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2354-minimum-health-to-beat-game](https://github.com/ndk6879/Leetcode-2024/tree/master/2354-minimum-health-to-beat-game) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
