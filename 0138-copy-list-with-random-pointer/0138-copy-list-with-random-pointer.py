@@ -16,11 +16,10 @@ class Solution:
         while cur:
             d[cur] = Node(cur.val)
             cur = cur.next
-        
+
         cur = head
         while cur:
             d[cur].next = d[cur.next]
             d[cur].random = d[cur.random]
             cur = cur.next
-
         return d[head]
