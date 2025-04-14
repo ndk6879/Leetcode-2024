@@ -9,17 +9,18 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        slow, fast = head, head
+        slow, fast = head, head.next
 
+        #1. find the second half
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
 
-
         second = slow.next
         slow.next = None
-
         prev = None
+
+        #2. reverse the second half
         while second:
             tmp = second.next
             second.next = prev
@@ -27,10 +28,13 @@ class Solution:
             second = tmp
 
         first, second = head, prev
+        print(prev)
+        # 3. link
         while first and second:
-            tmp1 = first.next
-            tmp2 = second.next
+            tmp1, tmp2 = first.next, second.next
             first.next = second
             second.next = tmp1
             first, second = tmp1, tmp2
+        
 
+        
