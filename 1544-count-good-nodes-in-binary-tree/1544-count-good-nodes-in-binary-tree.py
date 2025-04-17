@@ -16,8 +16,8 @@ class Solution:
 
             #recursive case
             greatestValue = max(node.val, val)
-            left = dfs(node.left, greatestValue) 
-            right = dfs(node.right, greatestValue)
+            dfs(node.left, greatestValue) 
+            dfs(node.right, greatestValue)
             return
 
         dfs(root, root.val)
