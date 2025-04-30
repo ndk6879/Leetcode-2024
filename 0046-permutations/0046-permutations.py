@@ -14,6 +14,7 @@ class Solution:
                     path.append(nums[i])
                     dfs(index+1,path)
                     path.pop()
+                    dfs(index+1,path)
                     used[i] = False
 
             
