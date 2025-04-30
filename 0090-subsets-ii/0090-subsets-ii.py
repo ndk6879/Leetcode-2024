@@ -7,9 +7,8 @@ class Solution:
         def dfs(index,path):
 
             if index == len(nums): 
-                if path not in ans:
-                    ans.append(path[:])
-                    return
+                ans.append(path[:])
+                return
 
             path.append(nums[index])
             dfs(index+1,path)
