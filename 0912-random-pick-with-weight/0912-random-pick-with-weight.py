@@ -1,5 +1,10 @@
 import random
 import bisect
+
+# random.random()
+# random.choice(arr) 
+# bisect.bisect_left(arr, element
+
 class Solution:
 
     def __init__(self, w: List[int]):
@@ -14,6 +19,7 @@ class Solution:
     def pickIndex(self) -> int:
         i = random.random() * self.proArr[-1]
         return bisect.bisect_left(self.proArr,i)
+        
         
 
 
