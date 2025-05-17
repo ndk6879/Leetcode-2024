@@ -12,7 +12,7 @@ class Solution:
                 cur = [ min(cur[0], intervals[i][0])   , max(cur[1],intervals[i][1]) ]
 
             #2. not overlap -> compare interval and cur 
-            elif cur[1] < intervals[i] [0]:
+            else:
                 ans.append(cur)
                 cur = intervals[i]
 
