@@ -4,12 +4,15 @@ class Solution:
         l = 0
         ans = 0
         hashMap = {}
+        curSet = set()
 
         for r in range(len(s)):
-            if s[r] in hashMap:
-                l = max(hashMap[s[r]]+1,l)
+            while s[r] in curSet:
+                curSet.remove(s[l])
+                l += 1
                 
             hashMap[s[r]] = r
+            curSet.add(s[r])
             ans = max(ans,r + 1 - l)
 
         return ans
