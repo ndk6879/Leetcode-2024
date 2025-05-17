@@ -1,12 +1,23 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        stack = []
-        opening = {']':'[','}':'{',')':'('}
-        openingList = ['[','(','{']
-        for i in s:
-            if i in openingList:
-                stack.append(i)
-            else:
-                if stack == [] or not opening[i] == stack.pop(): return False
 
+        if len(s) % 2 == 1: return False
+
+        
+        stack = []
+        opening = {
+            '(' : ')',
+            '[' : ']',
+            '{' : '}'
+          }
+
+        for i in s:
+            if i in opening:
+                stack.append(i)
+
+            else:
+                if stack == []: return False
+
+                cur = stack.pop()
+                if opening[cur] != i: return False
         return stack == []
