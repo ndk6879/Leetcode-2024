@@ -19,17 +19,16 @@ class RandomizedSet:
         if val not in self.hash:
             return False
 
-        # [3, 4, 5] -> [5, 4, 3] -> [5, 4]
-        valIndex = self.hash[val]
-        lastVal = self.arr[-1]
+        # [1, 3, 4, 5] -> [1, 5, 4, 3] -> [1, 5, 4]
+        
+        targetIndex = self.hash[val]
+        self.hash[self.arr[-1]] = targetIndex
 
-        # Move lastVal to the place of val
-        self.arr[valIndex] = lastVal
-        self.hash[lastVal] = valIndex  # \U0001f525 중요! 해시맵도 업데이트!
+        self.arr[targetIndex], self.arr[-1] = self.arr[-1], self.arr[targetIndex]
 
-        # Remove last element
         self.arr.pop()
         del self.hash[val]
+
         return True 
 
     def getRandom(self) -> int:
