@@ -1,31 +1,36 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-
-        A,B = nums1, nums2
-        if len(A) > len(B):
-            A,B = B,A
-
         
-        start, end = 0, len(A) - 1
+        A, B = nums1, nums2
+
+        if len(A) > len(B):
+            A,B = B, A
+
+        l, r = 0, len(A) - 1
+        half = (len(A) + len(B)) // 2
+# [0,0,0.     ,0,0,0,0]
+# [0,0,    0,0]
 
         while True:
-            mid1 = (start + end) // 2
-            mid2 = (len(A) + len(B)) // 2 - mid1 - 2
+            i = (l + r) // 2 #A
+            j = half - i - 2 #B
 
-            leftA = A[mid1] if mid1 >= 0 else float("-infinity")
-            rightA = A[mid1+1] if mid1+1 < len(A) else float("infinity") 
-            leftB = B[mid2] if mid2 >= 0 else float("-infinity")
-            rightB = B[mid2+1] if mid2+1 < len(B) else float("infinity")
+            leftA = A[i] if i >=0 else float("-inf")
+            rightA = A[i+1] if i+1 < len(A) else float("infinity")
+            leftB = B[j] if j >= 0 else float("-inf")
+            rightB = B[j+1] if j+1 < len(B) else float("infinity")
 
-            if leftA <= rightB and leftB <= rightA:
+            if leftA <= rightB and rightA >= leftB:
+
                 if (len(A) + len(B)) % 2 == 0:
-                    return (max(leftA,leftB) + min(rightA,rightB)) / 2
+                    return (min(rightA,rightB) + max(leftA,leftB)) / 2
 
                 else:
                     return min(rightA,rightB)
 
             elif leftA > rightB:
-                end = mid1 -1
-            
+                r = i - 1
             else:
-                start = mid1 + 1
+                l = i + 1
+
+        
