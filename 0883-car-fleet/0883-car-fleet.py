@@ -3,15 +3,14 @@ class Solution:
         
         arr = []
         for p,s in zip(position,speed):
-            arr.append([p,s])
+            arr.append((p,s))
 
         ans = []
-        for i in sorted(arr)[::-1]:
-            
-            time = (target - i[0]) / i[1]
-            ans.append(time)
+        for i in range(len(sorted(arr)[::-1])):
+            time = (target - arr[i][0]) // arr[i][1]
 
+            ans.append(time)
             if len(ans) >= 2 and ans[-2] >= ans[-1]:
                 ans.pop()
-        
+
         return len(ans)
