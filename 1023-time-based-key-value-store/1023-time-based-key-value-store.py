@@ -1,27 +1,24 @@
+from collections import defaultdict
+
 class TimeMap:
 
     def __init__(self):
-        self.hash = {}
-        
+        self.hashMap = defaultdict(list)
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key not in self.hash:
-            self.hash[key] = [[timestamp, value]]
-        else:
-            self.hash[key].append([timestamp,value])
+        self.hashMap[key].append((timestamp,value))
         
 
     def get(self, key: str, timestamp: int) -> str:
-        if key not in self.hash: return ''
-
-        l, r = 0, len(self.hash[key])-1
+        l = 0
+        r = len(self.hashMap[key]) - 1
         ans = ''
+        if key not in self.hashMap: return ''
 
         while (l <= r):
             mid = (l + r) // 2
-            # print('self.hash[key][mid][0]:',self.hash[key])
-            if self.hash[key][mid][0] <= timestamp:
-                ans = self.hash[key][mid][1]
+            if self.hashMap[key][mid][0] <= timestamp:
+                ans = self.hashMap[key][mid][1]
                 l = mid + 1
             
             else:
