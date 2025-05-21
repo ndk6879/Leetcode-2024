@@ -3,11 +3,10 @@ class Solution:
         
         l, r = 1, max(piles)
         ans = 0
-
-        while(l<=r):
-            k = (l + r ) // 2
+        while (l <= r):
+            k = (l + r) // 2
             tmp = 0
-            
+
             for pile in piles:
                 tmp += ceil(pile / k)
             
@@ -17,5 +16,5 @@ class Solution:
 
             else:
                 l = k + 1
-            
+
         return ans
