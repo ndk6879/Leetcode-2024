@@ -11,8 +11,8 @@ class Solution:
             if not node: 
                 return 0
             
-            left = self.maxDepth(root.left)
-            right = self.maxDepth(root.right)
+            left = dfs(node.left)
+            right = dfs(node.right)
             return 1 + max(left,right)
 
         
