@@ -2,7 +2,7 @@ class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         
         curMax , curMin = 1, 1
-        ans = 0
+        ans = max(nums)
 
         for num in nums:
             tmp = curMax * num
