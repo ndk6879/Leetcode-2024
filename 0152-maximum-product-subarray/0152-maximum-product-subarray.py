@@ -8,6 +8,6 @@ class Solution:
             tmp = curMax * num
             curMax = max(num, curMax * num, num * curMin )
             curMin = min(num, tmp, num * curMin)
-            ans = max(ans,curMax,curMin)
+            ans = max(ans,curMax)
 
         return ans
