@@ -1,30 +1,38 @@
-from collections import defaultdict, OrderedDict
-import heapq
+from collections import defaultdict
 
 class Twitter:
 
     def __init__(self):
-        self.posts = defaultdict(list)
-        self.following = defaultdict(set)  # 이름 변경
+        self.post = defaultdict(list)   #{ postID : [[0, tweetID1] , [1, tweetID2]]
+        self.following = defaultdict(set)  #{ userID : {follower1, follower2} }
         self.count = 0
 
+        
+
     def postTweet(self, userId: int, tweetId: int) -> None:
-        self.posts[userId].append((self.count, tweetId))
+        self.post[userId].append([self.count , tweetId])
         self.count += 1
+    
+
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
-        users = self.following[userId] | {userId}
-        heap = []
-        for user in users:
-            for time, tid in self.posts[user]:
-                heapq.heappush(heap,(-time,tid))
-        
-        ans = []
+        users = self.following[userId] | {userId} # every userID
 
-        while heap and len(ans) < 10:
-            cur = heapq.heappop(heap)
-            ans.append(cur[1])
+        posts = []
+        for user in users:
+            for time, tid in self.post[user]:
+                posts.append([-1 * time , tid])
+        
+
+        heapq.heapify(posts)
+        n = 10
+        ans = []
+        while posts and n > 0:
+            tid = heapq.heappop(posts)[1]
+            ans.append(tid)
+            n -= 1
+
         return ans
 
 
@@ -34,7 +42,7 @@ class Twitter:
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
         self.following[followerId].discard(followeeId)
-        
+
 
 
 # Your Twitter object will be instantiated and called as such:
