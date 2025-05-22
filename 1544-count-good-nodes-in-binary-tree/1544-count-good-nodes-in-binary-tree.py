@@ -7,19 +7,20 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         self.ans = 0
-        def dfs(node, val):
-            #base case
-            if not node: return
 
+        def dfs(node, val):
+            if not node: return 0
+            
             if node.val >= val:
                 self.ans += 1
 
-            #recursive case
-            greatestValue = max(node.val, val)
-            dfs(node.left, greatestValue) 
-            dfs(node.right, greatestValue)
-            return
+            val = max(node.val , val) 
+            
+            left = dfs(node.left, val)
+            right = dfs(node.right, val)
+            return 1 + max(left,right)
 
-        dfs(root, root.val)
+        dfs(root,root.val)
+
+
         return self.ans
-        
