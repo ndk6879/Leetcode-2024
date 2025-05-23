@@ -1,34 +1,34 @@
+from collections import Counter
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if not t:
+        if not s or not t:
             return ""
-
-        countT = {}
-        for c in t:
-            countT[c] = countT.get(c, 0) + 1
-
-        have, need = 0, len(countT)
-        window = {}
-        res, resLen = [-1, -1], float("inf")
+        
+        need = Counter(t)
+        have = {}
+        have_count = 0
+        res = ""
+        min_len = float('inf')
         l = 0
 
         for r in range(len(s)):
-            c = s[r]
-            if c in countT:  # t에 있는 문자만 처리
-                window[c] = window.get(c, 0) + 1
-                if window[c] == countT[c]:
-                    have += 1
+            char = s[r]
+            have[char] = have.get(char, 0) + 1
 
-            while have == need:
-                if (r - l + 1) < resLen:
-                    res = [l, r]
-                    resLen = r - l + 1
+            if char in need and have[char] == need[char]:
+                have_count += 1
+
+            while have_count == len(need):
+                # 최소 길이 갱신
+                if r - l + 1 < min_len:
+                    min_len = r - l + 1
+                    res = s[l:r+1]
                 
-                if s[l] in countT:  # t에 있는 문자만 제거
-                    window[s[l]] -= 1
-                    if window[s[l]] < countT[s[l]]:
-                        have -= 1
+                # 왼쪽 포인터 줄이기
+                have[s[l]] -= 1
+                if s[l] in need and have[s[l]] < need[s[l]]:
+                    have_count -= 1
                 l += 1
 
-        l, r = res
-        return s[l : r + 1] if resLen != float("inf") else ""
+        return res
