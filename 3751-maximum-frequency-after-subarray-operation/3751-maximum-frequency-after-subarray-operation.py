@@ -9,7 +9,7 @@ class Solution:
         max_duplicates = 0
 
         # 3. 가능한 모든 target 값을 시도 (1부터 50까지)
-        for target_value in range(1, 51):
+        for target_value in range(1, max(nums)+1):
             if target_value == k:
                 continue  # 원래 K는 이미 포함했으니까 패스
 
