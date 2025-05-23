@@ -4,7 +4,7 @@ class Solution:
         ans = []
 
         def dfs(i,path):
-            if len(s) == i:
+            if ''.join(path) == s:
                 ans.append(path[:])
                 return
 
