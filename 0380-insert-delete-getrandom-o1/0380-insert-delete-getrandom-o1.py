@@ -5,7 +5,6 @@ class RandomizedSet:
     def __init__(self):
         self.arr = []
         self.hash = {}
-        self.index = 0
 
     def insert(self, val: int) -> bool:
         if val in self.hash:
