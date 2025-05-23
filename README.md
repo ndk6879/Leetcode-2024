@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/ndk6879/Leetcode-2024/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ndk6879/Leetcode-2024/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/ndk6879/Leetcode-2024/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ndk6879/Leetcode-2024/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/ndk6879/Leetcode-2024/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ndk6879/Leetcode-2024/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0300-longest-increasing-subsequence) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/ndk6879/Leetcode-2024/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/ndk6879/Leetcode-2024/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/ndk6879/Leetcode-2024/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ndk6879/Leetcode-2024/tree/master/0146-lru-cache) |
@@ -351,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ndk6879/Leetcode-2024/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/ndk6879/Leetcode-2024/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [0171-excel-sheet-column-number](https://github.com/ndk6879/Leetcode-2024/tree/master/0171-excel-sheet-column-number) |
 | [0205-isomorphic-strings](https://github.com/ndk6879/Leetcode-2024/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
@@ -415,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ndk6879/Leetcode-2024/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/ndk6879/Leetcode-2024/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -449,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndk6879/Leetcode-2024/tree/master/0208-implement-trie-prefix-tree) |
 ## Union Find
 |  |
@@ -581,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/ndk6879/Leetcode-2024/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/0140-word-break-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/ndk6879/Leetcode-2024/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Combinatorics
 |  |
