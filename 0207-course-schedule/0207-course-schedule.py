@@ -11,18 +11,21 @@ class Solution:
         
         visit = set()
         def dfs(i):
-            if crsMap[i] == []: return True
-            if i in visit: return False
-
+            if crsMap[i] == []:
+                return True
+            
+            if i in visit:
+                return False
+            
             visit.add(i)
-            for crs in crsMap[i]:
-                if not dfs(crs): return False
-
+            for j in crsMap[i]:
+                if not dfs(j): return False
             visit.remove(i)
             crsMap[i] = []
             return True
 
-        for i in crsMap:
-            if not dfs(i): return False
+        for i in range(numCourses):
+            if not dfs(i):
+                return False
         
         return True
