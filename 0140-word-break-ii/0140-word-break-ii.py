@@ -6,7 +6,7 @@ class Solution:
 
         def dfs(i, path):
             if i == len(s):
-                tmp = ' '.join(path[:])
+                tmp = ' '.join(path)
                 res.append(tmp)
                 return
 
