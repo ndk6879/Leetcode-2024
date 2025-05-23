@@ -24,12 +24,8 @@ class Solution:
 
                 # 누적합이 0보다 작으면 버리고 새로 시작
                 current_freq = max(current_freq, 0)
-
-                # 지금까지 가장 많이 만든 K 개수 저장
-                current_max = max(current_max, current_freq)
-
-            # 이 target_value로 만든 K 수 중 가장 많은 경우 저장
-            max_duplicates = max(max_duplicates, current_max)
+                
+                max_duplicates = max(max_duplicates, current_freq)
 
         # 최종 정답 = 기존 K + 새로 만든 K
         return max_duplicates + starting_frequency
