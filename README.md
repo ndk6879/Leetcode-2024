@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/ndk6879/Leetcode-2024/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Two Pointers
 |  |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/ndk6879/Leetcode-2024/tree/master/1250-longest-common-subsequence) |
 | [2464-time-needed-to-rearrange-a-binary-string](https://github.com/ndk6879/Leetcode-2024/tree/master/2464-time-needed-to-rearrange-a-binary-string) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/ndk6879/Leetcode-2024/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Linked List
 |  |
 | ------- |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Tree
 |  |
 | ------- |
@@ -500,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ndk6879/Leetcode-2024/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2354-minimum-health-to-beat-game](https://github.com/ndk6879/Leetcode-2024/tree/master/2354-minimum-health-to-beat-game) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Math
 |  |
@@ -534,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ndk6879/Leetcode-2024/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/0912-random-pick-with-weight) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -637,4 +642,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ndk6879/Leetcode-2024/tree/master/0023-merge-k-sorted-lists) |
+## Enumeration
+|  |
+| ------- |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
 <!---LeetCode Topics End-->
