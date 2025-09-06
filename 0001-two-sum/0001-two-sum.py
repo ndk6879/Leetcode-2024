@@ -1,8 +1,13 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        adict = {}
-        for ind, num in enumerate(nums):
-            if target - num not in adict:
-                adict[num] = ind
-            elif target - num in adict:
-                return [ind, adict[target - num]]
+        
+        hashMap = {}
+
+        for i in range(len(nums)):
+            diff = target - nums[i]
+
+            if diff in hashMap:
+                return [hashMap[diff], i]
+
+            else:
+                hashMap[nums[i]] = i
