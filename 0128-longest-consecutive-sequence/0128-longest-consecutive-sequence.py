@@ -7,7 +7,7 @@ class Solution:
         ans = 0
         for num in nums:
             if (num - 1) not in numSet:
-                tmp = 0
+                tmp = 1
 
                 j = 1
                 while (num + j) in numSet:
@@ -16,4 +16,4 @@ class Solution:
 
                 ans = max(ans,tmp)
 
-        return ans+1
+        return ans
