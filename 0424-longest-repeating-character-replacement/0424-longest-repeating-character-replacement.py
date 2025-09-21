@@ -13,4 +13,5 @@ class Solution:
                 l += 1
 
             ans = max(ans, 1 + r - l)
+
         return ans
