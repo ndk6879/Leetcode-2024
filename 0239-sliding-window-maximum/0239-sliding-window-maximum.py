@@ -3,26 +3,27 @@ from collections import deque
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
-        q = deque([])
-        l, r = 0,0
-        ans = []
+        l, r =0, 0
 
+        queue = deque([])
+        ans = []
         while (r < len(nums)):
 
-            #pop smaller value
-            while (q and nums[q[-1]] < nums[r]):
-                q.pop()
+            #1. when prev is smaller 
+            while (queue and nums[queue[-1]] < nums[r]):
+                queue.pop()
 
-            q.append(r)
+            queue.append(r)
 
-            #remove l out of window
-            if (q and q[0] < l):
-                q.popleft()
+            #2. remove out of window
+            if queue and l > queue[0]:
+                queue.popleft()
 
-            #add in window
-            if (r+1) >= k:
-                ans.append(nums[q[0]])
+            #3. d
+            if (r + 1) >= k:
+                ans.append(nums[queue[0]])
                 l += 1
+
             r += 1
 
-        return ans
+        return ans            
