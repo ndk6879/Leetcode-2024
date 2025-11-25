@@ -14,7 +14,7 @@ class Solution:
         for num in hand:
             if counter[num]:
                 for i in range(num,num+groupSize):
-                    if i not in counter:
+                    if not counter[i]:
                         return False
 
                     counter[i] -= 1
