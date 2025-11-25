@@ -8,9 +8,11 @@ class Solution:
         if sum(gas) - sum(cost) < 0: return -1
 
         ans = 0
+        total = 0
         for i in range(len(gas)):
-            if gas[i] - cost[i] < 0:
+            total += gas[i] - cost[i]
+            if total < 0:
+                total = 0
                 ans = i + 1
-        
-        if ans == len(gas): return 0
-        else: return ans
+                
+        return ans
