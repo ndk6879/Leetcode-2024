@@ -1,12 +1,13 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        if len(nums) <= 2: return max(nums)
+        
+        rob1 = 0 #dp[i-1]
+        rob2 = 0 #dp[i-2]
+        
 
-        ans = [0 for _ in range(len(nums))]
-
-        ans[0] = nums[0]
-        ans[1] = max(nums[0] , nums[1])
-
-        for i in range(2,len(nums)):
-            ans[i] = max( nums[i] + ans[i-2],ans[i-1] )
-        return ans[-1]
+        
+        for n in nums:
+            temp = max(rob1,rob2 + n)
+            rob2 = rob1
+            rob1 = temp
+        return max(rob1,rob2)
