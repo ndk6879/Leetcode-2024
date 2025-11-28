@@ -1,3 +1,7 @@
+'''
+rob1, rob2가 dp 배열의 i-2, i-1 인덱스를 가리키고
+매 loop마다 오른쪽으로 한 칸씩 이동한다 생각해도 됨
+'''
 class Solution:
     def rob(self, nums: List[int]) -> int:
         
