@@ -9,7 +9,7 @@ class Solution:
             #odd
             l,r = i,i
 
-            while (l > 0 and r < len(s) and s[l] == s[r]):
+            while (l >= 0 and r < len(s) and s[l] == s[r]):
                 if ansLen <= (r + 1 - l):
                     ans = s[l:r+1]
                     ansLen = r+1-l
@@ -18,7 +18,7 @@ class Solution:
             
             l,r = i,i+1
 
-            while (l > 0 and r < len(s) and s[l] == s[r]):
+            while (l >= 0 and r < len(s) and s[l] == s[r]):
                 if ansLen <= (r + 1 - l):
                     ans = s[l:r+1]
                     ansLen = r+1-l
