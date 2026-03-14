@@ -1,10 +1,5 @@
-from collections import defaultdict
-
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        
-        #create row,col,square hashMap 
-        # iterate over every cell in board and check
         
         row = defaultdict(set)
         col = defaultdict(set)
@@ -12,16 +7,13 @@ class Solution:
 
         for r in range(len(board)):
             for c in range(len(board[0])):
-                
                 cur = board[r][c]
-                if cur == '.':
-                    continue
-
-                if cur in row[r] or cur in col[c] or cur in square[(r//3 , c//3)]:
+                if cur == '.': continue
+                if cur in row[r] or cur in col[c] or cur in square[(r,c)]:
                     return False
-                
+
                 row[r].add(cur)
                 col[c].add(cur)
-                square[(r//3 , c//3)].add(cur)
-        
+                square[(r//3,c//3)].add(cur)
         return True
+                
