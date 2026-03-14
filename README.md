@@ -657,4 +657,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/ndk6879/Leetcode-2024/tree/master/3751-maximum-frequency-after-subarray-operation) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ndk6879/Leetcode-2024/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
