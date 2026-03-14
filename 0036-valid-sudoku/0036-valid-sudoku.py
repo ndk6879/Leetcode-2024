@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         
@@ -9,7 +11,7 @@ class Solution:
             for c in range(len(board[0])):
                 cur = board[r][c]
                 if cur == '.': continue
-                if cur in row[r] or cur in col[c] or cur in square[(r,c)]:
+                if cur in row[r] or cur in col[c] or cur in square[(r//3,c//3)]:
                     return False
 
                 row[r].add(cur)
