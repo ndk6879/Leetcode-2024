@@ -3,6 +3,7 @@ class Solution:
 
         ans = []
         subSet = []
+        nums.sort()
 
         def dfs(i):
             if i >= len(nums):
