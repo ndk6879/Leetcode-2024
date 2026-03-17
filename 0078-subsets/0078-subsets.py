@@ -1,3 +1,5 @@
+#.copy() = 지금 상태의 리스트를 새로 복사해서 저장하려고 쓰는 것
+
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         ans = []
