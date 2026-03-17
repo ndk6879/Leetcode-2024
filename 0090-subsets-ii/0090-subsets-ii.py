@@ -12,10 +12,10 @@ class Solution:
             subSet.append(nums[i])
             dfs(i+1)
 
-            while i+1 < len(nums) and nums[i+1] == nums[i]:
-                i += 1
 
             subSet.pop()
+            while i+1 < len(nums) and nums[i+1] == nums[i]:
+                i += 1
             dfs(i+1)
 
         dfs(0)
