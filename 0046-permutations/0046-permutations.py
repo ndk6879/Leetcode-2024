@@ -4,19 +4,24 @@ class Solution:
         ans = []
         subSet = []
 
-        def dfs():
-
-            if len(subSet) == len(nums):
-                ans.append(subSet.copy())
+        def dfs(i):
+            if len(subSet[:]) == len(nums):
+                ans.append(subSet[:])
                 return
             
+            if i >= len(nums):
+                return 
+                
+
             for num in nums:
                 if num in subSet:
                     continue
-
-                subSet.append(num)                
-                dfs()
+                subSet.append(num)
+                dfs(i+1)
                 subSet.pop()
-        
-        dfs()
+                dfs(i+1)
+
+
+
+        dfs(0)
         return ans
