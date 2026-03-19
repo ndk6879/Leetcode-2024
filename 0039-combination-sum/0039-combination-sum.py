@@ -1,3 +1,7 @@
+'''
+현재 숫자를 쓴다
+현재 숫자를 안 쓰고 다음 숫자로 간다
+'''
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         
