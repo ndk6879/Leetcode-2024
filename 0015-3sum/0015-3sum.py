@@ -17,7 +17,7 @@ class Solution:
                 if total == 0:
                     ans.append([nums[l] , nums[i] , nums[r]])
                     i += 1
-                    while i < r and nums[l] == nums[i]:
+                    while i < r and nums[i-1] == nums[i]:
                         i += 1
                     
                  
