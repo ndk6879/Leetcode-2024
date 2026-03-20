@@ -1,31 +1,37 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         
-        if not digits: return []
-        res = []
-        phone = {
-            '2' : 'abc',
-            '3' : 'def',
-            '4' : 'ghi',
-            '5' : 'jkl',
-            '6' : 'mno',
-            '7' : 'pqrs',
-            '8' : 'tuv',
-            '9' : 'wxyz',
-            
+        '''
+        if i == len(digits):
 
+        for i in digits:
+            for c in i.:
+                cur +=
+                dfs()
+        '''
+
+        phone = {
+            '2' : 'abc', '3' : 'def', '4' : 'ghi',
+            '5' : 'jkl', '6' : 'mno', '7' : 'pqrs',
+            '8' : 'tuv', '9' : 'wxyz',
         }
-        def dfs(i, path):
-            if i == len(digits):
-                res.append(path)
+
+
+        ans = []
+        subSet = []
+
+        def dfs(i):
+            if i >= len(digits):
+                ans.append(''.join(subSet[:]))
                 return
 
+            if i >= len(digits): return
 
-            for c in phone[digits[i]]:
-                dfs(i+1,path + c)
-
-            
-
-        dfs(0,'')
-
-        return res
+            for digit in digits[i]:
+                for c in phone[digit]:
+                    subSet.append(c)
+                    dfs(i+1)
+                    subSet.pop()
+        
+        dfs(0)
+        return ans
