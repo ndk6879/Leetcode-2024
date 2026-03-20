@@ -2,28 +2,22 @@ class Solution:
     def partition(self, s: str) -> List[List[str]]:
         
         ans = []
+        subSet = []
 
-        def dfs(i,path):
-            if ''.join(path) == s:
-                ans.append(path[:])
+        def dfs(start):
+            if start >= len(s):
+                ans.append(subSet[:])
                 return
 
+            for end in range(start,len(s)):
+                sub = s[start:end+1]
+                if sub == sub[::-1]:
+                    subSet.append(sub)
+                    dfs(end+1)
+                    subSet.pop()
+                
+            
 
-            for j in range(i,len(s)):
-                if self.palindrome(s,i,j):
-                    path.append(s[i:j+1])
-                    dfs(j+1,path)
-                    path.pop()
-                    
-        dfs(0,[])
-
+        dfs(0)
+        print('ans:',ans)
         return ans
-
-    def palindrome(self, s, l, r):
-
-        while l <= r:
-            if s[l] != s[r]: return False
-
-            l += 1
-            r -= 1
-        return True
