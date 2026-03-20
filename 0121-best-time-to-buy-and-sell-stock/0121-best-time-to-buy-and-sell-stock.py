@@ -8,7 +8,7 @@ class Solution:
             profit = prices[r] - prices[l]
             if profit < 0:
                 l += 1
-                r = l
+                continue
             
             ans = max(ans, profit)
             r += 1
