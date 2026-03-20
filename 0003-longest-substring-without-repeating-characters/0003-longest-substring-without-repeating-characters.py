@@ -1,17 +1,21 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        l = 0
-        ans = 0
-        charSet = set()
-        
-        #abab
-        for r in range(len(s)):
+        '''
+        use two pointers l and r
+        increment r by 1 
+        increment l if repeating happens
+        '''
 
-            while s[r] in charSet:
-                charSet.remove(s[l])
+        ans = 0
+        l,r = 0,0
+        curSet = set()
+        while(r < len(s)):
+
+            while s[r] in curSet:
+                curSet.remove(s[l])
                 l += 1
 
-            ans = max(ans, r + 1 - l)
-            charSet.add(s[r])
-
+            curSet.add(s[r])
+            r+=1
+            ans = max(ans, r -l)
         return ans
