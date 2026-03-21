@@ -1,35 +1,35 @@
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
+        
         stack = []
 
         for token in tokens:
-            if token.isdigit():
-                stack.append(int(token))
+            # print('token:',token,stack)
+            
+            if token.isdigit() or len(token) > 1 and token[0] == '-':
+                stack.append(token)
 
-            elif token[0] == '-' and len(token) > 1:
-                stack.append(int(token))
-
-                
             elif token == '+':
-                num1 = stack.pop()
-                num2 = stack.pop()
-                stack.append(num1+num2)
-            
-            elif token == '-':
-                num1 = stack.pop()
-                num2 = stack.pop()
-                stack.append(num2-num1)
-            
-            elif token == '*':
-                num1 = stack.pop()
-                num2 = stack.pop()
-                stack.append(num1*num2)
-            
-            elif token == '/':
-                num1 = stack.pop()
-                num2 = stack.pop()
-                stack.append(int((num2) / num1))
-            # print('stack:',stack)
-            
-        return stack[-1]
+                cur1 = int(stack.pop())
+                cur2 = int(stack.pop())
+                stack.append(cur1+cur2)
 
+            elif token == '-':
+                cur1 = int(stack.pop())
+                cur2 = int(stack.pop())
+                stack.append(cur2 - cur1)
+
+            elif token == '*':
+                cur1 = int(stack.pop())
+                cur2 = int(stack.pop())
+                stack.append(cur1 * cur2)
+
+            elif token == '/':
+                cur1 = int(stack.pop())
+                cur2 = int(stack.pop())
+                stack.append(cur2 / cur1)
+            
+
+        return int(stack[-1])
+
+            
