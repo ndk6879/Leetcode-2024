@@ -1,27 +1,17 @@
 from collections import Counter
-
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        
-        s1Counter = Counter(s1)
-        s2Counter = {}
+        l,r = 0 ,0
+        hashS1 = Counter(s1)
+        hashS2 = {}
 
-        l,r = 0,0
 
         while (r < len(s2)):
 
-            s2Counter[s2[r]] = s2Counter.get(s2[r], 0) + 1
-
             if (r + 1 - l) >= len(s1):
-                if s1Counter == s2Counter:
+                if hashS1 == Counter(s2[l:r+1]):
                     return True
-                else:
-                    s2Counter[s2[l]] -= 1
-                    if s2Counter[s2[l]] == 0:
-                        del s2Counter[s2[l]]
-
-                    l += 1
+                l += 1
+                continue
             r += 1
-
-
         return False
