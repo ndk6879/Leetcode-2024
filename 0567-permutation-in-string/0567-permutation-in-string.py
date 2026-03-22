@@ -12,6 +12,6 @@ class Solution:
                 if hashS1 == Counter(s2[l:r+1]):
                     return True
                 l += 1
-                continue
+                
             r += 1
         return False
