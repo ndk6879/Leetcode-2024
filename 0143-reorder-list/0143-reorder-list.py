@@ -36,7 +36,7 @@ class Solution:
         
         print(prev)
         first, second = head, prev
-        while first and second:
+        while second:
             tmp1, tmp2 = first.next, second.next
 
             first.next = second
