@@ -1,20 +1,14 @@
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        ans = 0
-        time = []
+        cars = list(zip(position, speed))
+        cars.sort(reverse=True)   # target에 가까운 차부터
 
-        for i in zip(position,speed):
-            time.append(i)
-        
-        time.sort()
+        stack = []
 
-        ans = []
-        while time:
-            cur = time.pop()
-            p,s = cur[0], cur[1]
-            t = (target - p) / s
+        for p, s in cars:
+            time = (target - p) / s
 
-            if ans == [] or ans[-1] < t:
-                ans.append(t)
+            if not stack or time > stack[-1]:
+                stack.append(time)
 
-        return len(ans)
+        return len(stack)
