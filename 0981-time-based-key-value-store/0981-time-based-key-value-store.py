@@ -1,3 +1,7 @@
+'''
+- timestamp보다 작으면, 더큰 가능한 답이 있는지 확인하기 위해 오른쪽을 탐색 해야함. 
+= 만약 timestamp보다 크다면 현재 값이 (timestamp보다 작아야 하기 때문에), r = mid - 1
+'''
 class TimeMap:
 
     def __init__(self):
