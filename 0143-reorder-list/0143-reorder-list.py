@@ -8,38 +8,36 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-
+        
 
         '''
-        1. find the part
-        2. reverse second half
+        1. find the second half
+        2. reverse the second half
         3. link
         '''
 
-        #1.
-        slow , fast = head, head.next
+        slow, fast = head, head.next
 
         while fast and fast.next:
-            fast = fast.next.next
             slow = slow.next
-        
-        #2.
-        second = slow.next #second = 3
+            fast = fast.next.next
+
+        second = slow.next
         slow.next = None
- 
         prev = None
+
         while second:
             tmp = second.next
             second.next = prev
             prev = second
             second = tmp
         
-        print(prev)
         first, second = head, prev
+
         while second:
             tmp1, tmp2 = first.next, second.next
-
             first.next = second
             second.next = tmp1
-            first = tmp1 
+            first = tmp1
             second = tmp2
+        
