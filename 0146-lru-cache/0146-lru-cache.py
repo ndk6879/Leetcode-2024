@@ -1,25 +1,59 @@
-from collections import OrderedDict
+'''
+1. Use hashMap for O(1) and pointers for value 
+2. LRU & MRU for dummy 
+3. Use doulby linked list 
+4. for put, update LRU. then update RRU
+'''
+
+class Node:
+    def __init__(self, key, val):
+        self.key = key
+        self.val = val
+        self.next = None
+        self.prev = None
 
 class LRUCache:
 
-    def __init__(self, capacity: int):
-        self.cache = OrderedDict()
-        self.capacity = capacity
 
+    def __init__(self, capacity: int):
+        
+        self.cache = {} # {key : Node}
+        self.cap = capacity
+
+        self.left = Node(0,0)
+        self.right = Node(0,0)
+        self.left.next = self.right
+        self.right.prev = self.left
+
+        
+    def remove(self, node):
+        prev, nxt = node.prev, node.next
+        prev.next, nxt.prev = nxt, prev
+    
+    def insert(self, node):
+        prev, nxt = self.right.prev, self.right
+        prev.next = nxt.prev = node
+        node.prev, node.next = prev, nxt
 
     def get(self, key: int) -> int:
         if key in self.cache:
-            self.cache.move_to_end(key)
-            return self.cache[key]
+            self.remove(self.cache[key])
+            self.insert(self.cache[key])
+            return self.cache[key].val
         return -1
         
 
     def put(self, key: int, value: int) -> None:
-        self.cache[key] = value
-        self.cache.move_to_end(key)
         
-        if len(self.cache) > self.capacity:
-            self.cache.popitem(last=False)
+        if key in self.cache:
+            self.remove(self.cache[key])
+        self.cache[key] = Node(key, value)
+        self.insert(self.cache[key])
+        if len(self.cache) > self.cap:
+            lru = self.left.next
+            self.remove(lru)
+            del self.cache[lru.key]
+        
 
 
 # Your LRUCache object will be instantiated and called as such:
