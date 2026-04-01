@@ -7,7 +7,7 @@
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         if not root: return False
-        return self.isSameTree(root,subRoot) or self.isSameTree(root.left,subRoot) or self.isSameTree(root.right,subRoot)
+        return self.isSameTree(root,subRoot) or self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot)
         
 
     
