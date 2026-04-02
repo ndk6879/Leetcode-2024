@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/ndk6879/Leetcode-2024/tree/master/1036-rotting-oranges) |
+| [1046-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1046-last-stone-weight) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ndk6879/Leetcode-2024/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/ndk6879/Leetcode-2024/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1127-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1127-last-stone-weight) |
@@ -581,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1046-last-stone-weight) |
 | [1127-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1127-last-stone-weight) |
 | [1539-diagonal-traverse-ii](https://github.com/ndk6879/Leetcode-2024/tree/master/1539-diagonal-traverse-ii) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/ndk6879/Leetcode-2024/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
