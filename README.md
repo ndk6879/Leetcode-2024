@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ndk6879/Leetcode-2024/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/0912-random-pick-with-weight) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/ndk6879/Leetcode-2024/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/ndk6879/Leetcode-2024/tree/master/0883-car-fleet) |
 | [0959-3sum-with-multiplicity](https://github.com/ndk6879/Leetcode-2024/tree/master/0959-3sum-with-multiplicity) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ndk6879/Leetcode-2024/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0991-array-of-doubled-pairs](https://github.com/ndk6879/Leetcode-2024/tree/master/0991-array-of-doubled-pairs) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ndk6879/Leetcode-2024/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 ## Backtracking
 |  |
@@ -547,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/ndk6879/Leetcode-2024/tree/master/0380-insert-delete-getrandom-o1) |
 | [0593-valid-square](https://github.com/ndk6879/Leetcode-2024/tree/master/0593-valid-square) |
 | [0912-random-pick-with-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/0912-random-pick-with-weight) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndk6879/Leetcode-2024/tree/master/1370-count-number-of-nice-subarrays) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/ndk6879/Leetcode-2024/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -581,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0778-reorganize-string](https://github.com/ndk6879/Leetcode-2024/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ndk6879/Leetcode-2024/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1046-last-stone-weight) |
 | [1127-last-stone-weight](https://github.com/ndk6879/Leetcode-2024/tree/master/1127-last-stone-weight) |
@@ -639,11 +644,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndk6879/Leetcode-2024/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ndk6879/Leetcode-2024/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
 | ------- |
 | [0593-valid-square](https://github.com/ndk6879/Leetcode-2024/tree/master/0593-valid-square) |
+| [0973-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/ndk6879/Leetcode-2024/tree/master/1014-k-closest-points-to-origin) |
 ## Monotonic Stack
 |  |
