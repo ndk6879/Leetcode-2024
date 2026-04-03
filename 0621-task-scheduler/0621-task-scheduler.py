@@ -1,31 +1,41 @@
-import heapq
-from collections import Counter
+from collections import Counter, deque
 
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         
+        '''
+        - Count #
+        - maxHeap = [] # [-3,-3]
+        - queue = []
+        while maxHepap and queue:
+            time += 1
+            if maxHeap:
+                cur = maxHeap.heappop()
+
+            queue.append([cur+1,time+n])
+            if queue and queue[0][1] == time:
+                queue.pop()
+                task.heappush
+        return ans
+
+        '''
+
         counter = Counter(tasks)
-
-        maxHeap = [-i for i in counter.values() ]
-        queue = deque([])
-
-        time = 0
+        maxHeap = [-task for task in counter.values()]
         heapq.heapify(maxHeap)
 
+        queue = deque([])
+        time = 0
         while maxHeap or queue:
             time += 1
-
             if maxHeap:
                 cur = heapq.heappop(maxHeap)
-                print('cur:',cur)
-                tmp = cur + 1
-
-                if tmp != 0:
-                    queue.append([tmp, time + n])
-
+                
+                if cur + 1 != 0:
+                    queue.append([cur+1, time + n])
+                
             if queue and queue[0][1] == time:
                 cur = queue.popleft()
                 heapq.heappush(maxHeap,cur[0])
-
-
+        
         return time
