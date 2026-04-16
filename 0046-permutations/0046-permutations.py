@@ -1,27 +1,24 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         
-        ans = []
-        subSet = []
+        ans, cur = [], []
 
         def dfs(i):
-            if len(subSet[:]) == len(nums):
-                ans.append(subSet[:])
+            if len(cur) == len(nums):
+                ans.append(cur[:])
                 return
-            
+
             if i >= len(nums):
-                return 
-                
+                return
 
             for num in nums:
-                if num in subSet:
+                if num in cur:
                     continue
-                subSet.append(num)
+                
+                cur.append(num)
                 dfs(i+1)
-                subSet.pop()
+                cur.pop()
                 dfs(i+1)
-
-
 
         dfs(0)
         return ans
