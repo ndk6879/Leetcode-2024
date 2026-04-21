@@ -4,12 +4,13 @@ class TrieNode:
         self.EndOfWord = False
 
 class Trie:
+
     def __init__(self):
         self.root = TrieNode()
         
+
     def insert(self, word: str) -> None:
         cur = self.root
-
         for c in word:
             if c not in cur.children:
                 cur.children[c] = TrieNode()
@@ -18,7 +19,6 @@ class Trie:
 
     def search(self, word: str) -> bool:
         cur = self.root
-
         for c in word:
             if c not in cur.children:
                 return False
@@ -33,6 +33,7 @@ class Trie:
                 return False
             cur = cur.children[c]
         return True
+        
 
 
 # Your Trie object will be instantiated and called as such:
