@@ -2,30 +2,37 @@ class Codec:
     def encode(self, strs: List[str]) -> str:
         """Encodes a list of strings to a single string.
         """
-        
-        res = ''
-        for string in strs:
-            res += str(len(string)) + '#' + string
 
-        return res
+        ans = ''
+
+        for string in strs:
+            ans += str(len(string)) + '#' + string
+        print('ans:',ans)
+        return ans
+        
 
     def decode(self, s: str) -> List[str]:
         """Decodes a single string to a list of strings.
         """
         
-        i = 0
-        j = 0
-        ans = []
-        while (i < len(s)):
-            j = i
-            while s[j] != '#':
-                j += 1
-            length = int(s[i:j])
-            string = s[j+1:j+1+length]
-            ans.append(string)
-            i = j + 1 + length
-        return ans
+        '''
+        - use two pointer l,r to find the location of digits before #
+        '''
 
+        l,r = 0,0
+        ans = []
+        while(r < len(s)):
+
+            while(s[r] != '#'):
+                r += 1
+            
+            length = int(s[l:r])
+            string = s[r+1:r+1+length]
+            ans.append(string)
+            
+            r = r + 1 + length
+            l = r
+        return ans
 
 
 
