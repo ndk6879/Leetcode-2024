@@ -13,14 +13,12 @@ class Solution:
 
         for num in numSet:
             if (num - 1) not in numSet:
-                length = 0
+                length = 1
                 tmp = 1
 
-                while num+tmp in numSet:
+                while num+length in numSet:
                     length += 1
-                    tmp += 1
-
                 
                 ans = max(ans,length)
             
-        return ans + 1
+        return ans
